@@ -49,4 +49,4 @@ Estudiante de Ingeniería en Informática enfocado en el desarrollo **Full Stack
 
 - **LinkedIn:** [linkedin.com/in/nahuel-ramos-delbueno](https://www.linkedin.com/in/nahuel-ramos-delbueno/)
 - **Correo:** naahuramos@gmail.com
-- **CV:** [Ver Curriculum en PDF](https://docs.google.com/document/d/1AXaknWIORRQNyOac_m3h1DJSv1oIpnuwjzz3jejfpZo/edit?usp=drive_link)
+- **CV:** [Ver Curriculum en PDF](https://drive.google.com/file/d/1GYqcj_StRSTv5Fz8AVfr-20z5F_vQtco/view?usp=drive_link)
