@@ -17,25 +17,35 @@ Estudiante de Ingeniería en Informática enfocado en el desarrollo **Full Stack
 - Consumo de APIs, plantillas server-rendered (Jinja2) y maquetado responsive
 
 **Data & Computación Numérica**
-- Pandas, NumPy, Scikit-Learn
-- Pipelines ETL y optimización numérica con extensiones en C/Cython
+- Pandas, NumPy, Scikit-Learn, pandas-ta
+- Pipelines ETL, web scraping y optimización numérica con extensiones en C/Cython
 
 **Herramientas & Entornos**
-- Git, GitHub, Linux, Bash, Docker, Docker Compose, GitHub Actions (CI/CD), Makefiles
+- Git, GitHub, Linux, Bash, Docker, Docker Compose, GitHub Actions (CI/CD), Pytest, Makefiles
 
 ---
 
 ### Proyectos Destacados
 
-#### [Proyecto Timba - Football Analytics & Prediction Engine](https://github.com/1nachu/timba-predicciones)
-> Plataforma web de análisis y pronóstico deportivo en tiempo real con arquitectura modular, pipelines de datos y aceleración en C/Cython.
-- **Stack:** Python, Flask, Cython, HTMX, Bootstrap 5, Docker, GitHub Actions.
+#### [Timba Predictor - Football Analytics & Value Betting Engine](https://github.com/1nachu/timba-predicciones)
+> Plataforma web de predicción de fútbol y detección de apuestas de valor, con modelo estadístico, API REST, marcadores en vivo y backtesting cuantitativo.
+- **Stack:** Python, Flask, SQLite (WAL), Pandas, NumPy, HTMX, Jinja2, Docker, GitHub Actions, Pytest. Extensión Cython opcional.
 - **Arquitectura & Features:**
-  - Arquitectura web desacoplada en Blueprints (Flask) con frontend reactivo server-driven mediante HTMX.
-  - Pipeline ETL automatizado para ingesta, limpieza y normalización de entidades deportivas.
-  - Núcleo de cálculo numérico crítico optimizado mediante Cython para entornos de recursos limitados.
-  - Cobertura de tests automatizados (pytest), contenedorización con Docker y CI/CD con GitHub Actions.
+  - Modelo de Poisson con ajuste Dixon-Coles para probabilidades 1X2, y cálculo de Valor Esperado y Criterio de Kelly para identificar apuestas de valor.
+  - Arquitectura desacoplada en Blueprints (Flask) y capa de servicios, con API REST JSON v1.
+  - Frontend server-driven con HTMX y marcadores en vivo con actualización automática.
+  - Pipeline ETL y scraping de fixtures para múltiples ligas, con normalización de equipos.
+  - Motor de backtesting walk-forward sobre más de 11 temporadas (Brier Score, ROI y drawdown máximo).
+  - Bot de Telegram, 60 tests automatizados (Pytest), contenedorización con Docker y CI con GitHub Actions.
 - **Links:** [Repositorio](https://github.com/1nachu/timba-predicciones) <!-- | [Demo en vivo](https://tu-link.xyz) -->
+
+#### [Bot de Trading de Bitcoin para Binance Futures](https://github.com/1nachu/bottrading)
+> Bot automatizado en Python que opera Bitcoin en Binance Futures con una estrategia de ruptura y gestión de bankroll.
+- **Stack:** Python, ccxt, Pandas, pandas-ta.
+- **Features:**
+  - Estrategia "Ruptura Momentum + Gestión de Bankroll" con EMA 200, ADX, Donchian Channel y ATR trailing stop.
+  - Documentación técnica del sistema.
+- **Links:** [Repositorio](https://github.com/1nachu/bottrading)
 
 ---
 
